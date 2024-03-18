@@ -5,7 +5,7 @@ Create a folder and open in VSCode.
 Open a VSCode terminal.
 Run:
 ```
-wget https://raw.githubusercontent.com/Happi-Home/project-template-helpers/main/createNodeDevContainer.sh?token=GHSAT0AAAAAACNQZNCCYAEUG7GPM6Q7LKDSZPXTNIA
+wget https://raw.githubusercontent.com/Happi-Home/project-template-helpers/main/createNodeDevContainer.sh -O createNodeDevContainer.sh
 chmod +x createNodeDevContainer.sh
 ./createNodeDevContainer.sh
 ```
@@ -13,7 +13,7 @@ chmod +x createNodeDevContainer.sh
 ## New NestJS API
 Create a folder, add a 
 ```
-wget https://raw.githubusercontent.com/Happi-Home/project-template-helpers/main/installNest.sh?token=GHSAT0AAAAAACNQZNCDT3AO6XGWL2M46MGQZPXTJEA
+wget https://raw.githubusercontent.com/Happi-Home/project-template-helpers/main/installNest.sh -O installNest.sh
 chmod +x installNest.sh
 ./installNest.sh
 ```
