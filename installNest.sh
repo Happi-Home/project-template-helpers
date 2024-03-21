@@ -6,4 +6,7 @@ npm i @nestjs/swagger
 cd src
 wget -O app.controller.ts https://raw.githubusercontent.com/Happi-Home/project-template-helpers/main/nest/app.controller.ts
 wget -O main.ts https://raw.githubusercontent.com/Happi-Home/project-template-helpers/main/nest/main.ts
+cd ..
+git add .
+git commit -m "nest init"
 nest start
