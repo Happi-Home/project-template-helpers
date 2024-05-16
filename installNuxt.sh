@@ -1,4 +1,9 @@
 npx nuxi@latest init . --force
+npm install tailwindcss
+npm install postcss
+npm install @pinia/nuxt
+npm install axios
+npm install @mdi/js
 mkdir components
 mkdir layouts
 mkdir services
