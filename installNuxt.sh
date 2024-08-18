@@ -15,4 +15,9 @@ wget -O tailwind.config.ts https://raw.githubusercontent.com/Happi-Home/project-
 wget -O app.vue https://raw.githubusercontent.com/Happi-Home/project-template-helpers/main/nuxt/app.vue
 wget -O layouts/default.vue https://raw.githubusercontent.com/Happi-Home/project-template-helpers/main/nuxt/layouts/default.vue
 wget -O assets/css/main.css https://raw.githubusercontent.com/Happi-Home/project-template-helpers/main/nuxt/assets/css/main.css
+file="package.json"
+new_lines='"safeDev": "nuxt build && node .output/server/index.mjs","start": "node .output/server/index.mjs",'
+sed -i '' '/"scripts": {/a\
+    '"$new_lines"'
+' "$file"
 git add .
